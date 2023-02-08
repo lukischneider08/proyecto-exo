@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+.blanco {
+    color: white;
+}
+
+.negrita {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.animate__animated.animate__rotateIn {
+    --animate-duration: 3s;
+}
+
+.grid-contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.grid {
+    height: auto;
+    object-fit: cover;
+    border-radius: 25px;
+    width: 100%;
+}
+
+header {
+    background-color: #98C1D9;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90px;
+
+}
+
+header nav {
+    padding: 4px;
+    font-weight: 600;
+}
+
+.imagen1 {
+    grid-area: imagen1;
+}
+
+.imagen2 {
+    grid-area: imagen2;
+}
+
+.imagen4 {
+    grid-area: imagen4;
+}
+
+.imagen5 {
+    grid-area: imagen5;
+}
+
+.imagen6 {
+    grid-area: imagen6;
+}
+
+.imagen7 {
+    grid-area: imagen7;
+}
+
+main{
+    background-color: #6969B3;
+}
+
+main>div>div>a>img {
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+
+.logo {
+    display: flex;
+
+
+}
+
+.logo img {
+    width: 80px;
+    border-radius: 10px;
+    padding-top: 2px;
+
+}
+
+footer {
+    background-color: #98C1D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: auto;
+}
+
+footer>a>img {
+    width: 60px;
+    height: 50px;
+}
+
+.animate__animated.animate__flip{
+    animation-duration: 3s;
+}
+
+@media (min-width: 700px) {
+
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px;
+
+    }
+
+    header nav a {
+        padding: 18px;
+    }
+
+    .grid-contenedor {
+
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+
+    }
+
+    .grid {
+        height: auto;
+        object-fit: cover;
+      
+    }
+
+    main>div>div>a>img {
+        width: 95%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        padding: 10px;
+
+    }
+
+    .logo {
+        display: flex;
+    
+    
+    }
+    
+    .logo img {
+        width: 100px;
+        border-radius: 10px;
+        padding-top: 2px;
+    
+    }
+}
+
+@media (min-width: 1010px) {
+
+    header {
+        flex-direction: row;
+        padding: 20px;
+        
+    }
+
+    header nav a {
+        padding: 15px;
+      
+        
+    }
+
+    .grid-contenedor {
+
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        align-items: stretch;
+        padding: ;
+
+    }
+
+    .grid {
+        height: auto;
+        object-fit: cover;
+        
+      
+    }
+
+    main>div>div>a>img {
+        width: 32vw;
+        height: auto;
+        object-fit: cover;
+        border-radius: 20px;
+        padding: 10px;
+
+    }
+
+    .logo {
+        display: flex;
+    
+    
+    }
+    
+    .logo img {
+        width: 120px;
+        border-radius: 10px;
+        padding-top: 2px;
+    
+    }
+    footer{
+        padding: 10px;
+    }
+}
+
