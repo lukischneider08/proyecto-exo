@@ -84,7 +84,6 @@ header nav a {
 
 main {
     background-color: #6969B3;
-    width:
 }
 
 main>div>div>a>img {
@@ -160,6 +159,33 @@ table tr td {
 
 }
 
+.section{
+
+    display: flex;
+    width: 53.2vh;
+    height: 100vh;
+}
+
+.section img{
+
+    width: 10px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+.section img:hover{
+
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+
+}
+
+
+
+
 
 @media (min-width: 700px) {
 
@@ -234,6 +260,29 @@ table tr td {
     table tr td {
         border: rgba(255, 255, 255, 0.432) solid .5px;
             padding: 23px;
+    
+    }
+    .section{
+
+        display: flex;
+        width: 98.1vw;
+        height: 100vh;
+    }
+    
+    .section img{
+    
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+    .section img:hover{
+    
+        cursor: crosshair;
+        width: 300px;
+        opacity: 1;
+        filter: contrast(120%);
     
     }
    
@@ -313,6 +362,29 @@ table tr td {
     table tr td {
         border: rgba(255, 255, 255, 0.432) solid .5px;
             padding: 30.5px;
+    
+    }
+    .section{
+
+        display: flex;
+        width: 99.1vw;
+        height: 100vh;
+    }
+    
+    .section img{
+    
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+    .section img:hover{
+    
+        cursor: crosshair;
+        width: 300px;
+        opacity: 1;
+        filter: contrast(120%);
     
     }
 }
