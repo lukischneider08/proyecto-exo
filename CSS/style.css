@@ -122,6 +122,22 @@ footer>a>img {
     animation-duration: 3s;
 }
 
+.perfil{
+    padding: 10px;
+}
+.perfil-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.mainperfil{
+    min-height: 700px;
+    width: 100%;
+}
+
 @media (min-width: 700px) {
 
     header {
@@ -168,6 +184,21 @@ footer>a>img {
         border-radius: 10px;
         padding-top: 2px;
     
+    }
+
+    .perfil{
+        padding: 10px;
+    }
+    .perfil-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+
+    }
+    .mainperfil{
+        min-height: 700px;
+        width: 100%;
     }
 }
 
@@ -224,6 +255,17 @@ footer>a>img {
     }
     footer{
         padding: 10px;
+    }
+
+    .perfil-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .mainperfil{
+        min-height: 720px;
+        width: 100%;
     }
 }
 
