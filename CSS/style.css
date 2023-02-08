@@ -104,7 +104,7 @@ main>div>div>a>img {
 .logo img {
     width: 80px;
     border-radius: 10px;
-    padding-top: 2px;
+    padding-top: 10px;
 
 }
 
@@ -148,13 +148,15 @@ footer>a>img {
 
 
 table tr th {
-    border: rgba(255, 255, 255, 0.432) solid .5px;
-    padding: 10px;
+    border-collapse: collapse;
+    border: rgba(255, 255, 255, 0.432) solid 1px;
+    padding: 12px;
 }
 
 table tr td {
-    border: rgba(255, 255, 255, 0.432) solid .5px;
-        padding: 10px;
+    border-collapse: collapse;
+    border: rgba(255, 255, 255, 0.432) solid 1px;
+        padding: 12px;
 
 }
 
@@ -231,7 +233,7 @@ table tr td {
     
     table tr td {
         border: rgba(255, 255, 255, 0.432) solid .5px;
-            padding: 22.5px;
+            padding: 23px;
     
     }
    
