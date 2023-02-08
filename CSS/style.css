@@ -44,14 +44,18 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     min-height: 90px;
 
 }
 
 header nav {
-    padding: 4px;
+
+    padding: 10px;
     font-weight: 600;
+}
+
+header nav a {
+    padding: 5px;
 }
 
 .imagen1 {
@@ -78,8 +82,9 @@ header nav {
     grid-area: imagen7;
 }
 
-main{
+main {
     background-color: #6969B3;
+    width:
 }
 
 main>div>div>a>img {
@@ -93,7 +98,6 @@ main>div>div>a>img {
 
 .logo {
     display: flex;
-
 
 }
 
@@ -118,14 +122,15 @@ footer>a>img {
     height: 50px;
 }
 
-.animate__animated.animate__flip{
+.animate__animated.animate__flip {
     animation-duration: 3s;
 }
 
-.perfil{
+.perfil {
     padding: 10px;
 }
-.perfil-flex{
+
+.perfil-flex {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,10 +138,26 @@ footer>a>img {
     padding-bottom: 10px;
 
 }
-.mainperfil{
+
+
+.mainperfil {
     min-height: 700px;
     width: 100%;
 }
+
+
+
+table tr th {
+    border: rgba(255, 255, 255, 0.432) solid .5px;
+    padding: 10px;
+}
+
+table tr td {
+    border: rgba(255, 255, 255, 0.432) solid .5px;
+        padding: 10px;
+
+}
+
 
 @media (min-width: 700px) {
 
@@ -161,7 +182,7 @@ footer>a>img {
     .grid {
         height: auto;
         object-fit: cover;
-      
+
     }
 
     main>div>div>a>img {
@@ -175,31 +196,45 @@ footer>a>img {
 
     .logo {
         display: flex;
-    
-    
+
+
     }
-    
+
     .logo img {
         width: 100px;
         border-radius: 10px;
         padding-top: 2px;
-    
+
     }
 
-    .perfil{
+    .perfil {
         padding: 10px;
     }
-    .perfil-flex{
+
+    .perfil-flex {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding-top: 20px;
 
     }
-    .mainperfil{
+
+    .mainperfil {
         min-height: 700px;
         width: 100%;
     }
+
+    table tr th {
+        border: rgba(255, 255, 255, 0.432) solid .5px;
+        padding: 20px;
+    }
+    
+    table tr td {
+        border: rgba(255, 255, 255, 0.432) solid .5px;
+            padding: 22.5px;
+    
+    }
+   
 }
 
 @media (min-width: 1010px) {
@@ -207,13 +242,13 @@ footer>a>img {
     header {
         flex-direction: row;
         padding: 20px;
-        
+
     }
 
     header nav a {
-        padding: 15px;
-      
-        
+        padding: 51px;
+
+
     }
 
     .grid-contenedor {
@@ -221,19 +256,17 @@ footer>a>img {
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
         align-items: stretch;
-        padding: ;
-
     }
 
     .grid {
         height: auto;
         object-fit: cover;
-        
-      
+
+
     }
 
     main>div>div>a>img {
-        width: 32vw;
+        width: 31vw;
         height: auto;
         object-fit: cover;
         border-radius: 20px;
@@ -243,29 +276,41 @@ footer>a>img {
 
     .logo {
         display: flex;
-    
-    
+
+
     }
-    
+
     .logo img {
         width: 120px;
         border-radius: 10px;
         padding-top: 2px;
-    
+
     }
-    footer{
+
+    footer {
         padding: 10px;
     }
 
-    .perfil-flex{
+    .perfil-flex {
         display: flex;
         flex-direction: column;
         align-items: center;
 
     }
-    .mainperfil{
+
+    .mainperfil {
         min-height: 720px;
         width: 100%;
     }
-}
 
+    table tr th {
+        border: rgba(255, 255, 255, 0.432) solid .5px;
+        padding: 20px;
+    }
+    
+    table tr td {
+        border: rgba(255, 255, 255, 0.432) solid .5px;
+            padding: 30.5px;
+    
+    }
+}
