@@ -12,12 +12,12 @@
     color: black;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
-.parrafo{
-    padding: 20px ;
+.parrafo {
+    padding: 20px;
 }
 
 a {
@@ -299,8 +299,9 @@ table tr td {
         filter: contrast(120%);
 
     }
-    .parrafo{
-        padding: 80px ;
+
+    .parrafo {
+        padding: 80px;
     }
 
 }
@@ -362,7 +363,7 @@ table tr td {
     .mainperfil {
         min-height: 720px;
         width: 100%;
-        
+
     }
 
     table tr th {
@@ -402,7 +403,7 @@ table tr td {
 
     }
 
-    .parrafo{
-        padding: 120px ;
+    .parrafo {
+        padding: 120px;
     }
 }
