@@ -162,13 +162,13 @@ table tr td {
 .section{
 
     display: flex;
-    width: 53.2vh;
+    width: 430px;
     height: 100vh;
 }
 
 .section img{
 
-    width: 10px;
+    width: 0px;
     flex-grow: 1;
     object-fit: cover;
     opacity: .8;
