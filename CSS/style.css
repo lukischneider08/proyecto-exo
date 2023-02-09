@@ -162,7 +162,7 @@ table tr td {
 .section{
 
     display: flex;
-    width: 425.5px;
+    width: 100%;
     height: 100vh;
 }
 
