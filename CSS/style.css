@@ -18,6 +18,14 @@
 
 .parrafo {
     padding: 20px;
+    
+}
+
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-size: 26px;
 }
 
 a {
@@ -83,15 +91,16 @@ header nav a {
 }
 
 .imagen6 {
-    grid-area: imagen6;
+    grid-area: "imagen6";
 }
 
 .imagen7 {
-    grid-area: imagen7;
+    grid-area: "imagen7";
 }
 
 main {
     background-color: #6969B3;
+
 }
 
 main>div>div>a>img {
@@ -301,7 +310,14 @@ table tr td {
     }
 
     .parrafo {
-        padding: 80px;
+        padding: 60px;
+    }
+    
+    h1{
+        text-align: center;
+        color: white;
+        padding-top: 30px;
+        font-size: 26px;
     }
 
 }
@@ -311,6 +327,7 @@ table tr td {
     header {
         flex-direction: row;
         padding: 20px;
+        
 
     }
 
@@ -340,6 +357,7 @@ table tr td {
         object-fit: cover;
         border-radius: 20px;
         padding: 10px;
+        
 
     }
 
@@ -404,6 +422,16 @@ table tr td {
     }
 
     .parrafo {
-        padding: 120px;
+        padding: 90px;
+        padding-top: none;
     }
+
+    .h1{
+        text-align: center;
+        color: white;
+        padding-top: 40px;
+        font-size: 26px;
+    }
+
+    
 }
